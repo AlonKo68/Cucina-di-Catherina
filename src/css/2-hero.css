@@ -1,0 +1,35 @@
+.hero {
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+}
+.hero-wrapper {
+  max-width: 511px;
+}
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+.hero-text {
+  margin-bottom: 40px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+.hero-btn {
+}
+.hero-img {
+  max-width: 528px;
+  max-height: 528px;
+  border-radius: 580px;
+  border: 26px solid var(--Yellow-main, #ffe550);
+
+  margin-bottom: 113px;
+}

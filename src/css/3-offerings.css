@@ -1,0 +1,92 @@
+.offerings-section {
+  margin-top: -265px;
+}
+.offerings-container {
+  background-image: url(../img/3-offerings/background.png);
+  margin-bottom: 100px;
+  display: flex;
+  gap: 90px;
+}
+.offerings-wrapper-left {
+  margin-top: 210px;
+  margin-bottom: 43px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  width: 560px;
+  height: 560px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.offerings-background {
+  width: 502px;
+  height: 502px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.offerings-img {
+  margin-top: -80px;
+  margin-left: 50px;
+}
+
+.offerings-wrapper-right {
+  max-width: 573px;
+  margin-top: 250px;
+}
+.offerings-title {
+  /* max-width: 526px; */
+  margin-bottom: 20px;
+
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.offerings-text {
+  max-width: 500px;
+  margin-bottom: 40px;
+
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.offerings-list {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
+}
+.offerings-item {
+  max-width: 253px;
+}
+
+.background {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-bottom: 8px;
+}
+.offerings-item-title {
+  margin-bottom: 16px;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.offerings-item-text {
+  line-height: 1.5;
+}
+.offerings-btn {
+  background-color: #fff;
+  border: 2px solid var(--Dark-green, #7eb101);
+  margin-bottom: 79px;
+}
+.offerings-btn:hover,
+.offerings-btn:focus {
+  background-color: #bbf330;
+  border: inherit;
+}

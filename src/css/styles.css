@@ -11,7 +11,12 @@
 @import url('./animations.css');
 
 /* Sections style */
-@import url('./header.css');
+@import url('./1-header.css');
+@import url('./2-hero.css');
+@import url('./3-offerings.css');
+@import url('./4-favorites.css');
+@import url('./5-customers-say.css');
+@import url('./6-subscribe.css');
+@import url('./7-footer.css');
 
 @import url('./back-link.css');
-@import url('./footer.css');

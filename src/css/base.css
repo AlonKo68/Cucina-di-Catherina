@@ -1,13 +1,11 @@
 :root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: Roboto, sans-serif;
+  background-color: #fefefe;
+  color: var(--Black, #2c2c2c);
+  font-style: normal;
   font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  font-size: 14px;
+  line-height: normal;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,16 +15,48 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
   margin: 0;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* min-width: 100vw; */
+  /* min-height: 100vh; */
 }
 
-main {
+/* main {
   flex-grow: 1;
-}
-main:has(.back-link) {
+} */
+/* main:has(.back-link) {
   text-align: center;
+} */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+/* .header-btn, .hero-btn */
+.btn {
+  display: inline-flex;
+  padding: 6px 18px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #bbf330;
+
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.btn:hover,
+.btn:focus {
+  background: #ffe450;
+}
+.btn:active {
+  border: 2px solid #7eb101;
 }
